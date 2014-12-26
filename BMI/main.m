@@ -105,8 +105,8 @@ int main(int argc, const char * argv[]) {
         NSLog(@"Giving up ownership of one employee") ;
         [employees removeObjectAtIndex:5] ;
         NSLog(@"All assets %@",assets) ;
-        NSLog(@"Giving up ownership of array") ;
-       employees=nil ;
+      //  NSLog(@"Giving up ownership of array") ;
+      // employees=nil ;
         //sleep(10) ;
     }
   sleep(60) ;
